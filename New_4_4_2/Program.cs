@@ -8,7 +8,14 @@
             Console.WriteLine("Enter your name: ");
             anketa.name =  Console.ReadLine();
             Console.WriteLine("Enter your age: ");
-            anketa.age = int.Parse(Console.ReadLine());
+            anketa.age = Convert.ToInt32(Console.ReadLine());
+            
+            Console.WriteLine("Your name is {0}", anketa.name);
+            Console.WriteLine("Your age is {0}", anketa.age);
+            Console.ReadKey();
+ 
+        
         }
+
     }
 }
